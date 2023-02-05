@@ -1,0 +1,141 @@
+*,*::after,*::before{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: url("../../public/images/bg-intro-desktop.png") hsl(0, 100%, 74%) ;
+    color: white;
+}
+
+.container{
+    min-width: 100vw;
+    min-height: 100vh;
+    padding: 4em;
+    display: flex;
+}
+
+.container .subContainer{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.left{
+    flex: 1;
+    padding:4em;
+}
+
+.left #title{
+    font-size: 4em;
+}
+
+.left>div{
+    padding:0 5em 0 0
+}
+
+.left div>#description{
+    margin-top: 2em;
+    line-height: 2rem;
+}
+
+.right{
+    flex:1;
+    min-height: 100vh;
+    /*background:green;*/
+}
+
+.right .formContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.right .formContainer .price{
+    text-align: center;
+    background: hsl(248, 32%, 49%) ;
+    padding:1em;
+    border-radius:0.555em;
+}
+.price span{
+    color: hsl(246, 25%, 77%);
+}
+
+.right form{
+    background: white;
+    color: black;
+    min-height: 4em;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    border-radius: 0.999em;
+    gap:30px;
+}
+
+.right form div{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.right form input{
+    padding: 0.899em;
+    border-radius: 00.555em;
+}
+
+.errorActive{
+    border:2px hsl(0, 100%, 74%)  solid;
+    background: url("../../public/images/icon-error.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.right #errorMessage{
+    color: hsl(0, 100%, 74%) ;
+    align-self: flex-end;
+}
+
+.right form #submitBtn{
+    background: hsl(154, 59%, 51%);
+    padding: 0.999em;
+    color: white;
+    border:none;
+    border-radius: 0.555em;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.right form .terms-and-services{
+    flex-direction: row;
+    font-size: small;
+    align-self: center;
+    color: hsl(246, 25%, 77%);
+}
+#terms{
+    color: hsl(0, 100%, 74%) ;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:700px) {
+    .subContainer{
+        flex-direction: column;
+    }
+    .left{
+        padding:0;
+        align-items:center;
+    }
+    .left>div{
+        padding: 0;
+        
+    }
+    .left>#title{
+        font-size: 2em;
+    }
+}
+
+

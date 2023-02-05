@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-signup.git/static/css/main.7f4321b2.css",
-    "main.js": "/react-signup.git/static/js/main.d46632a1.js",
-    "static/media/bg-intro-desktop.png": "/react-signup.git/static/media/bg-intro-desktop.059183eea52640c5068d.png",
-    "index.html": "/react-signup.git/index.html",
-    "static/media/icon-error.svg": "/react-signup.git/static/media/icon-error.b72f792e9c900128f5c8.svg",
-    "main.7f4321b2.css.map": "/react-signup.git/static/css/main.7f4321b2.css.map",
-    "main.d46632a1.js.map": "/react-signup.git/static/js/main.d46632a1.js.map"
+    "main.css": "/react-signup/static/css/main.021e2958.css",
+    "main.js": "/react-signup/static/js/main.d46632a1.js",
+    "static/media/bg-intro-desktop.png": "/react-signup/static/media/bg-intro-desktop.059183eea52640c5068d.png",
+    "index.html": "/react-signup/index.html",
+    "static/media/icon-error.svg": "/react-signup/static/media/icon-error.b72f792e9c900128f5c8.svg",
+    "main.021e2958.css.map": "/react-signup/static/css/main.021e2958.css.map",
+    "main.d46632a1.js.map": "/react-signup/static/js/main.d46632a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f4321b2.css",
+    "static/css/main.021e2958.css",
     "static/js/main.d46632a1.js"
   ]
 }
